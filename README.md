@@ -56,65 +56,6 @@ Alongside research, I build quantitative strategies, autonomous agents, financia
   </tr>
 </table>
 
-## Featured Research Repositories
-
-A curated map of projects across neural reconstruction, dynamic scenes, fluid modeling, and high-performance 3D tooling.
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>Neural 3D & 4D</h3>
-      <ul>
-        <li><a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaussian Splatting</a></li>
-        <li><a href="https://github.com/nerfstudio-project/nerfstudio">Nerfstudio</a></li>
-        <li><a href="https://github.com/hustvl/4DGaussians">4D Gaussians</a></li>
-        <li><a href="https://github.com/JonathonLuiten/Dynamic3DGaussians">Dynamic 3D Gaussians</a></li>
-        <li><a href="https://github.com/donydchen/mvsplat">MVSplat</a></li>
-        <li><a href="https://github.com/zju3dv/4K4D">4K4D</a></li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Fluids & Physics</h3>
-      <ul>
-        <li><a href="https://github.com/ueoo/FluidNexus">FluidNexus</a></li>
-        <li><a href="https://github.com/JiaxiongQ/NeuSmoke">NeuSmoke</a></li>
-        <li><a href="https://github.com/y-zheng18/HyFluid">HyFluid</a></li>
-        <li><a href="https://github.com/19reborn/PICT_smoke">PICT Smoke</a></li>
-        <li><a href="https://github.com/XPandora/PhysGaussian">PhysGaussian</a></li>
-        <li><a href="https://github.com/tum-pbs/PhiFlow">PhiFlow</a></li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Efficient Research Tools</h3>
-      <ul>
-        <li><a href="https://github.com/Zaki0207/kilonerf">KiloNeRF</a></li>
-        <li><a href="https://github.com/ashawkey/torch-ngp">torch-ngp</a></li>
-        <li><a href="https://github.com/facebookresearch/pytorch3d">PyTorch3D</a></li>
-        <li><a href="https://github.com/taichi-dev/taichi">Taichi</a></li>
-        <li><a href="https://github.com/playcanvas/supersplat">SuperSplat</a></li>
-        <li><a href="https://github.com/manycoretech/aholo-viewer">Aholo Viewer</a></li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-## Quantitative Finance & Agent Systems
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Zaki0207/quant_pro_intern">Quantitative Strategy Research</a></h3>
-      <p>Notebook-based experiments in factor research, signal construction, quantitative strategy analysis, and data-driven evaluation.</p>
-      <p><code>Jupyter</code> <code>Factor Research</code> <code>Strategy Analysis</code> <code>Data</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Zaki0207/finmolt">FinMolt</a></h3>
-      <p>An autonomous-agent financial community with market discussions, Polymarket data, simulated trading, portfolios, positions, settlement, and agent leaderboards.</p>
-      <p><code>AI Agents</code> <code>Prediction Markets</code> <code>Next.js</code> <code>Express</code> <code>PostgreSQL</code></p>
-    </td>
-  </tr>
-</table>
-
 ## Contribution Landscape
 
 <p align="center">
