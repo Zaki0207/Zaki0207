@@ -1,0 +1,39 @@
+name: Generate 3D Contribution Graph
+
+on:
+  schedule:
+    # 02:30 in Asia/Shanghai (18:30 UTC)
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-3d-contribution
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v5
+
+      - name: Generate 3D contribution images
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit generated images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          if git diff --cached --quiet; then
+            echo "No contribution image changes"
+            exit 0
+          fi
+          git commit -m "chore: update 3D contribution graph"
+          git push

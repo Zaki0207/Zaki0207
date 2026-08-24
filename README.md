@@ -54,35 +54,6 @@ Alongside research, I enjoy turning ideas into usable systems: visualization too
   </tr>
 </table>
 
-## Selected Builds
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Zaki0207/pose_vis">pose_vis</a></h3>
-      <p>A lightweight viewer for COLMAP camera poses, sparse reconstructions, point clouds, and 3D Gaussian Splatting outputs.</p>
-      <p><code>Python</code> <code>COLMAP</code> <code>viser</code> <code>3DGS</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Zaki0207/personal-literature-library">Personal Literature Library</a></h3>
-      <p>A local-first workspace for organizing papers, notes, resources, and AI-assisted literature discovery.</p>
-      <p><code>JavaScript</code> <code>SQLite</code> <code>Local-first</code> <code>AI</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Zaki0207/finmolt">FinMolt</a></h3>
-      <p>An AI-agent financial discussion platform exploring multi-agent collaboration and product-oriented full-stack development.</p>
-      <p><code>TypeScript</code> <code>AI Agents</code> <code>Full Stack</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Zaki0207/ai-cli-kit">AI CLI Kit</a></h3>
-      <p>A compact command-line status interface for AI-assisted coding workflows.</p>
-      <p><code>Shell</code> <code>Developer Tools</code> <code>AI Coding</code></p>
-    </td>
-  </tr>
-</table>
-
 ## Featured Research Repositories
 
 A curated map of projects across neural reconstruction, dynamic scenes, fluid modeling, and high-performance 3D tooling.
@@ -124,6 +95,24 @@ A curated map of projects across neural reconstruction, dynamic scenes, fluid mo
     </td>
   </tr>
 </table>
+
+## Contribution Landscape
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season.svg" />
+    <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D GitHub contribution calendar" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Zaki0207&amp;bg_color=0D1117&amp;color=8B949E&amp;title_color=58A6FF&amp;line=38BDF8&amp;point=A78BFA&amp;area=true&amp;area_color=0A3069&amp;hide_border=true&amp;custom_title=Recent%20Contribution%20Activity" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Zaki0207&amp;bg_color=FFFFFF&amp;color=57606A&amp;title_color=0969DA&amp;line=0969DA&amp;point=8250DF&amp;area=true&amp;area_color=B6E3FF&amp;border_color=D0D7DE&amp;hide_border=true&amp;custom_title=Recent%20Contribution%20Activity" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zaki0207&amp;bg_color=0D1117&amp;color=8B949E&amp;title_color=58A6FF&amp;line=38BDF8&amp;point=A78BFA&amp;area=true&amp;area_color=0A3069&amp;hide_border=true&amp;custom_title=Recent%20Contribution%20Activity" alt="Recent GitHub contribution activity" width="100%" />
+  </picture>
+</p>
 
 ## Toolbox
 
