@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/research-divider.svg" alt="Camera geometry, point cloud, and reconstructed 3D objects" width="100%" />
+  <img src="./assets/research-pipeline.png" alt="Multi-view cameras, point-cloud reconstruction, and wireframe 3D geometry" width="100%" />
 </p>
 
 ## About
