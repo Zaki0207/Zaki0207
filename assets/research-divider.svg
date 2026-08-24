@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" role="img" aria-labelledby="title desc">
   <title id="title">Research motif</title>
-  <desc id="desc">Minimal line art combining camera geometry, a point cloud, and fluid streamlines.</desc>
+  <desc id="desc">Minimal line art showing camera geometry, a point cloud, and reconstructed three-dimensional objects.</desc>
   <style>
     .grid { stroke: #d0d7de; }
     .primary { stroke: #0969da; }
@@ -38,15 +38,35 @@
       <circle cx="257" cy="83" r="3" />
     </g>
 
-    <g class="primary" stroke-width="1.5" opacity="0.7">
-      <path d="M735 65C790 16 858 16 906 58C947 94 999 95 1062 49C1101 21 1146 28 1200 60" />
-      <path d="M721 77C785 41 836 45 882 73C934 105 1003 106 1066 68C1110 42 1153 44 1200 71" opacity="0.6" />
-      <path d="M749 49C810 4 872 5 923 45C963 76 1009 76 1057 42C1100 12 1148 17 1200 47" opacity="0.4" />
+    <g class="secondary" stroke-width="1.15" opacity="0.48">
+      <path d="M744 88V59M744 88L773 99M744 88L762 68" />
+      <circle cx="744" cy="88" r="2.2" />
     </g>
 
-    <g class="secondary" stroke-width="1.2" opacity="0.58">
-      <path d="M766 88C832 58 883 66 927 91C967 114 1021 112 1075 84C1120 61 1161 62 1200 82" />
-      <path d="M799 28C852 11 903 20 943 51C978 78 1014 80 1052 59" stroke-dasharray="2 6" />
+    <!-- wireframe cube -->
+    <g class="primary" stroke-width="1.45" opacity="0.74">
+      <path d="M790 43L853 53L853 96L790 85Z" />
+      <path d="M813 25L876 35L876 78L813 68Z" />
+      <path d="M790 43L813 25M853 53L876 35M853 96L876 78M790 85L813 68" />
+      <path d="M790 43L876 78M813 25L853 96" opacity="0.28" stroke-dasharray="3 6" />
+    </g>
+
+    <!-- faceted reconstruction -->
+    <g class="secondary" stroke-width="1.4" opacity="0.72">
+      <path d="M973 21L1014 29L1041 58L1025 91L984 101L948 82L944 47Z" />
+      <path d="M973 21L981 51L1014 29M981 51L1041 58M981 51L984 101M981 51L948 82M944 47L981 51" />
+      <path d="M1014 29L1009 69L1041 58M1009 69L1025 91M1009 69L984 101M981 51L1009 69" />
+      <circle cx="981" cy="51" r="2" />
+      <circle cx="1009" cy="69" r="2" />
+    </g>
+
+    <!-- reconstructed cylinder -->
+    <g class="primary" stroke-width="1.35" opacity="0.68">
+      <ellipse cx="1132" cy="34" rx="42" ry="13" />
+      <path d="M1090 34V83M1174 34V83" />
+      <path d="M1090 83C1090 90 1109 96 1132 96C1155 96 1174 90 1174 83" />
+      <path d="M1090 83C1090 76 1109 70 1132 70C1155 70 1174 76 1174 83" opacity="0.34" stroke-dasharray="3 5" />
+      <path d="M1132 21V96M1090 34L1174 83M1174 34L1090 83" opacity="0.23" stroke-dasharray="3 6" />
     </g>
   </g>
 
