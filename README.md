@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/profile-hero.png" alt="3D vision and neural fluid reconstruction banner" width="100%" />
-</p>
-
 <h1 align="center">Hi, I'm Ziyu Zhao</h1>
 
 <p align="center">
@@ -23,7 +19,9 @@
   </a>
 </p>
 
----
+<p align="center">
+  <img src="./assets/research-divider.svg" alt="Camera geometry, point cloud, and fluid streamline motif" width="100%" />
+</p>
 
 ## About
 
