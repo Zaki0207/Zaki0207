@@ -5,17 +5,19 @@
 <h1 align="center">Hi, I'm Ziyu Zhao</h1>
 
 <p align="center">
-  <strong>PhD Student · 3D Vision Researcher · Research Engineer</strong>
+  <strong>PhD Student · 3D Vision Researcher · Quant & Agent Builder</strong>
 </p>
 
 <p align="center">
-  Reconstructing <strong>geometry</strong>, <strong>appearance</strong>, and <strong>dynamics</strong> from visual observations.
+  Reconstructing <strong>geometry</strong>, <strong>appearance</strong>, and <strong>dynamics</strong>—and building intelligent systems that reason about markets.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Southeast%20University-PhD%20Student-0068B7?style=flat-square" alt="PhD Student at Southeast University" />
   <img src="https://img.shields.io/badge/Research-3D%20Vision-2563EB?style=flat-square" alt="3D Vision" />
   <img src="https://img.shields.io/badge/Focus-Fluid%20Scene%20Reconstruction-7C3AED?style=flat-square" alt="Fluid Scene Reconstruction" />
+  <img src="https://img.shields.io/badge/Exploring-Quantitative%20Research-0E7490?style=flat-square" alt="Quantitative Research" />
+  <img src="https://img.shields.io/badge/Building-AI%20Agents-4F46E5?style=flat-square" alt="AI Agents" />
   <a href="https://github.com/Zaki0207?tab=followers">
     <img src="https://img.shields.io/github/followers/Zaki0207?label=Follow&style=flat-square&color=0A84FF" alt="GitHub followers" />
   </a>
@@ -27,7 +29,7 @@
 
 I am a PhD student at **Southeast University**, working on **3D vision**, **3D reconstruction**, and **fluid scene reconstruction**. My research interests sit at the intersection of computer vision, computer graphics, and physics-aware learning—especially methods that recover scene structure and motion from images or videos.
 
-Alongside research, I enjoy turning ideas into usable systems: visualization tools for 3D data, local-first research software, LLM-powered applications, and full-stack products.
+Alongside research, I build quantitative strategies, autonomous agents, financial discussion and prediction-market platforms, visualization tools for 3D data, and full-stack research software.
 
 <details>
   <summary><strong>中文简介</strong></summary>
@@ -48,8 +50,8 @@ Alongside research, I enjoy turning ideas into usable systems: visualization too
       <p>Time-varying scene representations, fluid reconstruction, motion and velocity fields, physics priors, and differentiable simulation.</p>
     </td>
     <td width="33%" valign="top">
-      <h3>Research Systems & AI</h3>
-      <p>Scientific visualization, reproducible research tools, local-first applications, LLM agents, and full-stack engineering.</p>
+      <h3>Quantitative Systems & Agents</h3>
+      <p>Factor research, quantitative strategies, autonomous LLM agents, financial platforms, and full-stack engineering.</p>
     </td>
   </tr>
 </table>
@@ -96,6 +98,23 @@ A curated map of projects across neural reconstruction, dynamic scenes, fluid mo
   </tr>
 </table>
 
+## Quantitative Finance & Agent Systems
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Zaki0207/quant_pro_intern">Quantitative Strategy Research</a></h3>
+      <p>Notebook-based experiments in factor research, signal construction, quantitative strategy analysis, and data-driven evaluation.</p>
+      <p><code>Jupyter</code> <code>Factor Research</code> <code>Strategy Analysis</code> <code>Data</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Zaki0207/finmolt">FinMolt</a></h3>
+      <p>An autonomous-agent financial community with market discussions, Polymarket data, simulated trading, portfolios, positions, settlement, and agent leaderboards.</p>
+      <p><code>AI Agents</code> <code>Prediction Markets</code> <code>Next.js</code> <code>Express</code> <code>PostgreSQL</code></p>
+    </td>
+  </tr>
+</table>
+
 ## Contribution Landscape
 
 <p align="center">
@@ -108,9 +127,9 @@ A curated map of projects across neural reconstruction, dynamic scenes, fluid mo
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Zaki0207&amp;bg_color=0D1117&amp;color=8B949E&amp;title_color=58A6FF&amp;line=38BDF8&amp;point=A78BFA&amp;area=true&amp;area_color=0A3069&amp;hide_border=true&amp;custom_title=Recent%20Contribution%20Activity" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Zaki0207&amp;bg_color=FFFFFF&amp;color=57606A&amp;title_color=0969DA&amp;line=0969DA&amp;point=8250DF&amp;area=true&amp;area_color=B6E3FF&amp;border_color=D0D7DE&amp;hide_border=true&amp;custom_title=Recent%20Contribution%20Activity" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zaki0207&amp;bg_color=0D1117&amp;color=8B949E&amp;title_color=58A6FF&amp;line=38BDF8&amp;point=A78BFA&amp;area=true&amp;area_color=0A3069&amp;hide_border=true&amp;custom_title=Recent%20Contribution%20Activity" alt="Recent GitHub contribution activity" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./contribution-snake/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./contribution-snake/github-snake.svg" />
+    <img src="./contribution-snake/github-snake-dark.svg" alt="GitHub contribution snake animation" width="100%" />
   </picture>
 </p>
 
@@ -128,6 +147,7 @@ A curated map of projects across neural reconstruction, dynamic scenes, fluid mo
 - Joint recovery of geometry, appearance, motion, and physical fields
 - Efficient 3D/4D reconstruction with neural fields and Gaussian primitives
 - LLM-assisted research workflows and scientific software engineering
+- Quantitative strategy research and autonomous financial agents
 
 ---
 
